@@ -6,9 +6,28 @@
 }
 .container{
     width: 80%;
-        
+    background-color: rgb(6, 36, 36);
+          
      
 }
 nav{
     height: 100px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin-top: 20px;
+
+}
+li{
+    display: inline-block;
+    align-items: center;
+    padding: 30px;
+   
+}
+li>a{
+    display: block;
+    text-decoration: none;
+    color:aqua;
 }
