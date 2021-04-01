@@ -6,7 +6,9 @@
 }
 .container{
     width: 80%;
-    background-color: rgb(6, 36, 36);
+    background-image: url(/images/pexels-photo-234527.jpeg.jpg);
+    display: block;
+    height: 100%;
           
      
 }
@@ -29,5 +31,13 @@ li{
 li>a{
     display: block;
     text-decoration: none;
-    color:aqua;
+    color:rgb(13, 59, 59);
+}
+section{
+    height: 50vh;
+    display: flex;
+    
+}
+#boss>img{
+    border-radius: 50%;
 }
