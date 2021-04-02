@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     margin: auto;
     box-sizing: border-box;
@@ -22,15 +23,14 @@ nav{
     opacity: 0.7;
    
 }
-ul{
+nav>ul{
     display: flex;
     justify-content: flex-end;
     float: right;
     margin-top: 20px;
-    /* margin-right: 100px; */
-
+    margin-right: 100px;
 }
-li{     
+ul>li{     
     display: inline-block;
     align-items: center;
     padding: 30px;
@@ -45,15 +45,41 @@ li>a{
 li>a:hover{
     text-decoration: 2px solid white underline;
 }
+
 section{
     height: 50vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgb(11, 212, 162);
     
 }
+#ibrahim{
+    margin-left: 30%;
+}
+#ibrahim>p{
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+
+#ibrahim>p>a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: rgb(3, 48, 33);
+    width: 120px;
+}
+#ibrahim>p>a:hover{
+    transition:(2s) ;
+    width: 130px;
+    border-bottom: 3px solid rgb(161, 158, 158);
+}
+
+
 #boss>img{
     border-radius: 50%;
-    float: right;
+    margin-left: 70%;
+
 }
 #webdesign{
     display: flex;
