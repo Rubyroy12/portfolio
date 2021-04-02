@@ -11,10 +11,13 @@ body{
 }
 .container{
     width: 80%;
+    height: 100%;
     background-image: url(/images/background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    /* margin-top: 0;        */
+    
+    
      
 }
 nav{
@@ -43,13 +46,13 @@ li>a{
     font-weight: bolder;
 }
 li>a:hover{
-    text-decoration: 2px solid white underline;
+    text-decoration: 2px solid rgb(4, 252, 211) underline;
 }
 
 section{
     height: 50vh;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     color: rgb(11, 212, 162);
     
@@ -72,7 +75,7 @@ section{
 #ibrahim>p>a:hover{
     transition:(2s) ;
     width: 130px;
-    border-bottom: 3px solid rgb(161, 158, 158);
+    border-bottom: 3px solid rgb(5, 243, 243);
 }
 
 
@@ -82,6 +85,18 @@ section{
 
 }
 #webdesign{
+    height:100px;
     display: flex;
+    margin: 3px;
+   bottom: 10px;
+   margin-top: 80px;
 
+
+}
+#bottom{
+    background-color: rgb(65, 68, 68);
+    color: aqua;
+    display: flex; 
+    height: 10%;  
+    opacity: 0.8;
 }
