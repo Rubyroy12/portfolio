@@ -149,10 +149,25 @@ article {
     color: white;
     opacity: 0.8;
     margin-top: 5px;
+    font-size: 20px;
 }
 #edu-pro{
     display: flex;
 }
+hr{
+    width:80%;
+    /* border: 0.5px solid; */
+}
 #job-int{
     display: flex;
+}
+#contacts{
+    display: block;
+    margin:20px ;
+    margin-left:8%;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    margin-bottom: 0;
 }
