@@ -100,3 +100,9 @@ section{
     height: 10%;  
     opacity: 0.8;
 }
+.wrapper{
+    width: 80%;
+    background-image: url(/images/chromeOS76appManager.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
