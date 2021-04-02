@@ -133,6 +133,15 @@ section {
     opacity: 0.5;
 
 }
+strong>a{
+    opacity: 1;
+    text-decoration:underline ;
+    font-family: 'Ubuntu';
+    color: aqua;
+}
+strong>a:hover{
+    text-decoration:1px solid white underline;
+}
 
 #about>p {
     color: white;
@@ -150,6 +159,9 @@ article {
     opacity: 0.8;
     margin-top: 5px;
     font-size: 20px;
+}
+h2:hover{
+    text-decoration: 1px solid underline;
 }
 #edu-pro{
     display: flex;
