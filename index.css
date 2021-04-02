@@ -16,6 +16,7 @@ body {
     background-image: url(/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: brightness(80%);
    
 }
 
@@ -118,7 +119,7 @@ section {
     background-image: url(/images/chromeOS76appManager.jpg);
     background-repeat:repeat-y;
     background-size: cover;
-    filter:brightness(70%)
+    filter:brightness(60%)
     /* background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url(/images/chromeOS76appManager.jpg); */
     /* background-blend-mode: darken; */
 }
