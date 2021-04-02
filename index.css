@@ -153,21 +153,37 @@ article {
 }
 #edu-pro{
     display: flex;
+    
 }
 hr{
     width:80%;
     /* border: 0.5px solid; */
 }
-#job-int{
+#job-info{
     display: flex;
+    float: left;
+    margin-left: 8%;
+    margin-top: 3px;
 }
 #contacts{
     display: block;
     margin:20px ;
     margin-left:8%;
 }
+
+#education,#projects{
+    margin-top: 3px;
+}
+#interests{
+    margin-top: 3px;
+    margin-left: 8%;
+}
 footer{
+    background-color: rgb(30, 51, 45);
     height: 10vh;
     display: flex;
     margin-bottom: 0;
+}
+footer>p{
+    color: antiquewhite;
 }
