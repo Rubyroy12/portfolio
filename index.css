@@ -13,7 +13,7 @@ body {
 .container {
     width: 80%;
     height: 100%;
-    background-image: url(/images/background-image.jpg);
+    background-image: url(./images/background-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(80%);
@@ -116,7 +116,7 @@ section {
 .wrapper {
     width: 80%;
     height: 100%;
-    background-image: url(/images/chromeOS-appManager.jpg);
+    background-image: url(./images/chromeOS-appManager.jpg);
     background-repeat:repeat-y;
     background-size: cover;
     filter:brightness(60%)
