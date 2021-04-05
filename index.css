@@ -35,7 +35,7 @@ nav>ul {
     margin-right: 100px;
 }
 
-ul>li {
+nav>ul>li {
     display: inline-block;
     align-items: center;
     padding: 30px;
@@ -163,14 +163,29 @@ article {
 h2:hover{
     text-decoration: 1px solid underline;
 }
-#edu-pro{
-    display: flex;
-    
-}
 hr{
     width:80%;
     /* border: 0.5px solid; */
 }
+#education{
+    margin-left: 8%;
+}
+#projects{
+    margin-left: 8%;
+}
+span{
+    font-style: italic;
+}
+#projects>ul>li>a{
+    font-size:20px;
+    display: inline-block;
+
+}
+#hr2{
+    width: 60%;
+    margin-left: 10%;
+}
+
 #job-info{
     display: flex;
     float: left;
